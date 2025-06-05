@@ -25,4 +25,4 @@ SELECT
 FROM information_schema.schemata s
 LEFT JOIN table_counts tc ON tc.table_schema = s.schema_name
 WHERE s.schema_name != 'information_schema'
-ORDER BY s.schema_name;
+ORDER BY s.schema_name

@@ -116,7 +116,7 @@
                   type="text"
                   id="sqlalchemy-url"
                   placeholder="username:password@hostname:port/catalog/schema"
-                  value="admin@localhost:8081/system/information_schema"
+                  value="admin@localhost:8080/memory/information_schema"
                 />
               </div>
             </div>
@@ -133,7 +133,7 @@
               </div>
               <div class="input-wrapper" style="width: 100px">
                 <label>Port *</label>
-                <input type="text" id="port" value="8081" />
+                <input type="text" id="port" value="8080" />
               </div>
             </div>
 
@@ -170,19 +170,19 @@
             <div class="form-group">
               <label>Catalog *</label>
               <input 
-                type="text" 
-                id="catalog" 
-                placeholder="system" 
-                value="system"
+                type="text"
+                id="catalog"
+                placeholder="system"
+                value="memory"
               />
             </div>
 
             <div class="form-group">
               <label>Schema *</label>
               <input 
-                type="text" 
-                id="schema" 
-                placeholder="information_schema" 
+                type="text"
+                id="schema"
+                placeholder="information_schema"
                 value="information_schema"
               />
             </div>

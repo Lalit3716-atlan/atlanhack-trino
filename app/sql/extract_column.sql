@@ -60,4 +60,4 @@ WHERE t.table_schema != 'information_schema'
 ORDER BY 
     c.table_schema, 
     c.table_name, 
-    c.ordinal_position;
+    c.ordinal_position
